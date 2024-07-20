@@ -1,0 +1,20 @@
+.container_office_rules {
+    margin: 20px;
+}
+
+.title_office_rules {
+    text-align: center;
+    color: #F1C40F;
+    font-size: 50px;
+}
+
+ol {
+    list-style-position: inside;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 25px;
+    text-align: justify;
+    margin-bottom: 15px;
+}

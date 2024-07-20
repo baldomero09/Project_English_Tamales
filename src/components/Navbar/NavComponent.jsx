@@ -54,7 +54,8 @@ const Navbar = () => {
           ) : (
             <div>
               <Button color="inherit" component={StyledLink} to="/" className='link'>Home</Button>
-              <Button color="inherit" component={StyledLink} to="/about" className='link'>About</Button>
+              <Button color="inherit" component={StyledLink} to="/about" className='link'>Member's</Button>
+              <Button color="inherit" component={StyledLink} to="/store" className='link'>Store</Button>
               <Button color="inherit" component={StyledLink} to="/contact" className='link'>Contact</Button>
             </div>
           )}
@@ -66,7 +67,10 @@ const Navbar = () => {
             <ListItemText primary="Home" className='link' />
           </ListItem>
           <ListItem button component={StyledLink} to="/about" onClick={toggleDrawer(false)}>
-            <ListItemText primary="About" className='link' />
+            <ListItemText primary="Member's" className='link' />
+          </ListItem>
+          <ListItem button component={StyledLink} to="/store" onClick={toggleDrawer(false)}>
+            <ListItemText primary="Store" className='link' />
           </ListItem>
           <ListItem button component={StyledLink} to="/contact" onClick={toggleDrawer(false)}>
             <ListItemText primary="Contact" className='link' />

@@ -1,0 +1,72 @@
+.container_product {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  /* Para pantallas grandes (laptops, desktops) */
+@media (min-width: 1200px) {
+  .container_product {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+/* Para pantallas medianas (tablets en modo horizontal) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .container_product {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .card {
+    margin: 10px;
+  }
+}
+
+/* Para pantallas pequeñas (tablets en modo vertical) */
+@media (max-width: 767px) and (min-width: 480px) {
+  .container_product {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Para pantallas extra pequeñas (smartphones) */
+@media (max-width: 479px) {
+  .container_product {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    margin: 10px; /* Reduce el margen para pantallas pequeñas */
+    margin-bottom: 30px;
+  }
+}

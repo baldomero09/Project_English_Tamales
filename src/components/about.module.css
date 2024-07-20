@@ -1,0 +1,24 @@
+.about {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container_about{
+    min-height: 600px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_members {
+    max-width: 900px;
+    font-size: 2.5rem;
+    font-family: lato, sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 40px 0;
+}

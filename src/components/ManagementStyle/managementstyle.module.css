@@ -1,0 +1,109 @@
+.type_management_style {
+    margin: 20px;
+}
+
+.title_management {
+    text-align: center;
+    font-size: 50px;
+    color: #F1C40F;
+}
+
+.container_management {
+    display: flex;
+    justify-content: space-between;
+}
+
+.type_management {
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.definition_management {
+    font-size: 25px;
+    text-align: justify;
+}
+
+/* Estilos por defecto para pantallas grandes (escritorio) */
+.type_management_style {
+    margin: 20px;
+}
+
+.title_management {
+    text-align: center;
+    font-size: 50px;
+    color: #F1C40F;
+}
+
+.container_management {
+    display: flex;
+    justify-content: space-between;
+}
+
+.type_management {
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.definition_management {
+    font-size: 25px;
+    text-align: justify;
+}
+
+/* Media query para pantallas muy grandes (más de 1200px) */
+@media (min-width: 1200px) {
+    .title_management {
+        font-size: 60px;
+    }
+
+    .type_management {
+        font-size: 35px;
+    }
+
+    .definition_management {
+        font-size: 28px;
+    }
+}
+
+/* Media query para pantallas de tamaño medio (entre 768px y 1200px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .title_management {
+        font-size: 45px;
+    }
+
+    .type_management {
+        font-size: 28px;
+    }
+
+    .definition_management {
+        font-size: 24px;
+    }
+}
+
+/* Media query para pantallas pequeñas (menos de 768px) */
+@media (max-width: 767px) {
+    .title_management {
+        font-size: 35px;
+    }
+
+    .type_management {
+        font-size: 25px;
+    }
+
+    .definition_management {
+        font-size: 20px;
+    }
+
+    .container_management {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .type_management {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,38 @@
+.container_courses {
+    padding: 20px;
+}
+
+header {
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.life_long_course {
+    background: #fff;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle_courses {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul ul {
+    margin-left: 20px;
+}
+
+.goal_duration {
+    margin: 10px 0;
+}
